@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DisplacementMap?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.FloatMap?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Pantalla1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="789.0" style="-fx-background-color: #21646D;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectooperativos.FXMLDocumentControllerInicio">
+   <children>
+      <Button layoutX="327.0" layoutY="415.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="127.0" prefWidth="135.0" style="-fx-background-color: #21646D; -fx-background-radius: 80;" text="Iniciar" textFill="WHITE">
+         <effect>
+            <DisplacementMap>
+               <mapData>
+                  <FloatMap />
+               </mapData>
+               <input>
+                  <InnerShadow height="89.41" radius="62.865" width="164.05" />
+               </input>
+            </DisplacementMap>
+         </effect>
+         <font>
+            <Font name="Lucida Bright" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label layoutX="102.0" layoutY="260.0" text="Integrantes:" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT" size="24.0" />
+         </font></Label>
+      <Label layoutX="324.0" layoutY="138.0" text="Semestre V" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="194.0" text="Docente: Claudia Patricia Flores Gutierrez" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT Italic" size="24.0" />
+         </font></Label>
+      <Pane prefHeight="43.0" prefWidth="789.0" style="-fx-background-color: #012535;">
+         <effect>
+            <GaussianBlur>
+               <input>
+                  <DropShadow />
+               </input>
+            </GaussianBlur>
+         </effect>
+      </Pane>
+      <Pane layoutX="-5.0" layoutY="564.0" prefHeight="43.0" prefWidth="800.0" style="-fx-background-color: #012535;">
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Pane>
+      <Pane layoutX="754.0" prefHeight="596.0" prefWidth="35.0" style="-fx-background-color: #012535;">
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Pane>
+      <Pane prefHeight="596.0" prefWidth="35.0" style="-fx-background-color: #012535;">
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Pane>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="80.0" layoutY="67.0" prefHeight="71.0" prefWidth="623.0" text="Proyecto final Sistemas Operativos" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT Italic" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="298.0" text="Diego Hernández Ortiz - 177232" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT" size="16.0" />
+         </font></Label>
+      <Label layoutX="102.0" layoutY="319.0" text="Leonardo David Aguilar Hernández - 177860 " textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT" size="16.0" />
+         </font></Label>
+      <Label layoutX="102.0" layoutY="340.0" text="Karen Getsemani Chavez Medina - 177616" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT" size="16.0" />
+         </font></Label>
+      <Label layoutX="102.0" layoutY="361.0" text="Carlos Mauricio Rosales Rodriguez - 177691 " textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT" size="16.0" />
+         </font></Label>
+      <Label layoutX="102.0" layoutY="382.0" text="Karen Andrea Mendoza Villalobos  - 179026" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT" size="16.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
